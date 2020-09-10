@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">CookBook</string>
+    <string name="cookbook">CookBook</string>
+    <string name="time_to_feast_on">Time to feast on ?</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="chose_what_you_like">Chose what you like!</string>
+    <string name="veg">veg</string>
+    <string name="non_veg">non-veg</string>
+    <string name="hard_choice_isn_t_it">Hard Choice, isn\'t it?</string>
+    <string name="ravadosa">Rava Dosa</string>
+    <string name="aloo_parantha">Aloo Parantha</string>
+    <string name="cholebhature">Chole Bhature</string>
+    <string name="poha">Poha</string>
+    <string name="veg_sandwich">Veg Sandwich</string>
+    <string-array name="breakfastveg">
+        <item>@string/cholebhature</item>
+        <item>@string/aloo_parantha</item>
+        <item>@string/ravadosa</item>
+        <item>@string/poha</item>
+        <item>@string/veg_sandwich</item>
+    </string-array>
+
+    <string name="paneertamatar">Paneer Tamatar ki Sabzi</string>
+    <string name="kadhi">Maharashtrian Kadhi</string>
+    <string name="dal">Punjabi Dal Tadka</string>
+    <string name="dumaloo">Dum Aloo</string>
+    <string name="curdrice">Curd Rice</string>
+    <string-array name="lunchveg">
+        <item>@string/paneertamatar</item>
+        <item>@string/kadhi</item>
+        <item>@string/dal</item>
+        <item>@string/dumaloo</item>
+        <item>@string/curdrice</item>
+    </string-array>
+
+    <string name="paneerhandi">Paneer Handi</string>
+    <string name="dalmakhani">Dal Makhani</string>
+    <string name="vegpulao">Veg Pulao</string>
+    <string name="malaikofta">Malai Kofta</string>
+    <string name="paneermakhani">Paneer Makhani</string>
+    <string-array name="dinnerveg">
+        <item>@string/paneerhandi</item>
+        <item>@string/dalmakhani</item>
+        <item>@string/vegpulao</item>
+        <item>@string/malaikofta</item>
+        <item>@string/paneermakhani</item>
+    </string-array>
+
+    <string name="omlette">Masala Omlette</string>
+    <string name="chickensandwich">Chicken Sandwich</string>
+    <string name="eggbhurji">Egg Bhurji</string>
+    <string name="chickensalad">Chicken Salad</string>
+    <string name="eggparantha">Egg Parantha</string>
+    <string-array name="breakfastnonveg">
+        <item>@string/omlette</item>
+        <item>@string/chickensandwich</item>
+        <item>@string/eggbhurji</item>
+        <item>@string/chickensalad</item>
+        <item>@string/eggparantha</item>
+    </string-array>
+
+    <string name="chickendopyaza">Chicken Do Pyaza</string>
+    <string name="eggfriedrice">Egg Fried Rice</string>
+    <string name="muttonfry">Mutton Fry</string>
+    <string name="fishbiryani">Fish Biryani</string>
+    <string name="keemapulav">Keema Pulav</string>
+    <string-array name="lunchnonveg">
+        <item>@string/chickendopyaza</item>
+        <item>@string/eggfriedrice</item>
+        <item>@string/muttonfry</item>
+        <item>@string/fishbiryani</item>
+        <item>@string/keemapulav</item>
+    </string-array>
+
+    <string name="chickenmasala">Chicken Masala</string>
+    <string name="roganjosh">Rogan Josh</string>
+    <string name="butterchicken">Butter Chicken</string>
+    <string name="fishcurry">Fish Curry</string>
+    <string name="murghbiryani">Murgh Biryani</string>
+    <string-array name="dinnernonveg">
+        <item>@string/chickenmasala</item>
+        <item>@string/roganjosh</item>
+        <item>@string/butterchicken</item>
+        <item>@string/fishcurry</item>
+        <item>@string/murghbiryani</item>
+    </string-array>
+</resources>

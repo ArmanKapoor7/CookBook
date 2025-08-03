@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#e2d1c3"
+    android:id="@+id/toolbar"
+    android:elevation="5dp"
+    app:navigationIcon="@drawable/menu_28">
+
+    <TextView
+        android:id="@+id/hitext"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Hi! User."
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"/>
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="5dp"
+        android:layout_marginEnd="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/toolbarprofileimage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="openProfile"
+            android:src="@drawable/profileimage"
+            app:civ_border_color="#000000"
+            app:civ_border_width="3dp" />
+
+        <ProgressBar
+            android:id="@+id/toolbarprogress_bar"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="#115571"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.appcompat.widget.Toolbar>
